@@ -22,7 +22,7 @@ const ListadoHabitaciones = styled.ul`
 const IndexPage = () => {
 
   const habitaciones = useHabitaciones();
-  console.log(habitaciones);
+  //console.log(habitaciones);
   return (
 
     <Layout>
@@ -39,7 +39,7 @@ const IndexPage = () => {
 
       <ListadoHabitaciones>{habitaciones.map(habitacion => (
         <HabitacionPreview
-          key={habitacion.id}
+          key={habitacion.slug}
           habitacion={habitacion}
         />
       ))}</ListadoHabitaciones>
