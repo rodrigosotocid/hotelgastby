@@ -11,7 +11,7 @@ const EnlaceHome = styled(Link)`
 `;
 
 
-const Footer = () => {
+const Footer = ({ title }) => {
 
   const year = new Date().getFullYear();
   return (
@@ -52,7 +52,7 @@ const Footer = () => {
       margin: 0;
       padding: 1rem;
       `}
-      >Hotel Gatsby - Todos los derechos reservados {year} &copy;</p>
+      >{title} - Todos los derechos reservados {year} &copy;</p>
     </>
   );
 }
