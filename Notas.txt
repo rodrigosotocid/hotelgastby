@@ -7,3 +7,7 @@ react-helmet --> Nos permite modificar el Head del sitio
 - Usamos Normalize como framework de css y añadimos fuentes de Google Fonts
 
 npm i @emotion/core @emotion/styled gatsby-plugin-emotion --> Añadimos Styled Component para Gatsby (usamos Global y css para estilo mas lineal)
+
+npm i gatsby-background-image --> plugin para trabajar con imágenes
+
+npm i gatsby-source-datocms --> plugin para trabajar con el CMS Dato

@@ -1,12 +1,16 @@
 import * as React from "react";
 import Layout from '../components/layout';
+import ImagenHotel from '../components/imagenHotel';
+import ContenidoInicio from '../components/contenidoInicio';
+
 /* import { StaticImage } from "gatsby-plugin-image" */
 
 
 const IndexPage = () => (
 
   <Layout>
-    <h1>Index</h1>
+    <ImagenHotel />
+    <ContenidoInicio />
   </Layout>
 )
 
